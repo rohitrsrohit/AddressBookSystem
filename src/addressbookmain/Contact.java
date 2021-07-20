@@ -1,7 +1,7 @@
 package addressbookmain;
 
 public class Contact {
-	//declaring contact details variables
+	 //declaring contact details variables
     String firstName;
     String lastName;
     String address;
