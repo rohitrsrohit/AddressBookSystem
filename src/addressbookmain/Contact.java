@@ -1,14 +1,14 @@
 package addressbookmain;
 
 public class Contact {
-	 //declaring contact details variables
+	//declaring contact details variables
     String firstName;
     String lastName;
     String address;
     String city;
     String state;
-    Long zipCode;
-    Long phoneNumber;
+    String zipCode;
+    String phoneNumber;
     String emailId;
 
 
@@ -52,20 +52,20 @@ public class Contact {
        this.state = state;
    }
 
-   public Long getZipCode() {
+   public String getZipCode() {
        return zipCode;
    }
 
-   public void setZipCode(Long zipCode) {
-       this.zipCode = zipCode;
+   public void setZipCode(String newZipcode) {
+       this.zipCode = newZipcode;
    }
 
-   public Long getPhoneNumber() {
+   public String getPhoneNumber() {
        return phoneNumber;
    }
 
-   public void setPhoneNumber(Long phoneNumber) {
-       this.phoneNumber = phoneNumber;
+   public void setPhoneNumber(String newPhone) {
+       this.phoneNumber = newPhone;
    }
 
    public String getEmailId() {
